@@ -22,8 +22,7 @@ body {
 #page1 {
   height: 100vh;
   width: 100%;
-  /* position: relative; */
-  background-color: black;
+  position: relative;
 }
 #page1 video {
   height: 100%;
@@ -266,6 +265,9 @@ h4 {
     font-size: 5vw;
     font-weight: 200;
   }
+  #page1{
+    background-color: #faf6e9;
+  }
 
   #page1-content h1 {
     rotate: 90deg;
@@ -273,11 +275,11 @@ h4 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 100vh;
+    width: 100%;
     font-size: 20vh;
     top: 45%;
-    left: -48vw;
-    transform: translate(0%, 50%);
+    left: 0%;
+    transform: translate(0%, 0%);
   }
   #cursor {
     display: none;
