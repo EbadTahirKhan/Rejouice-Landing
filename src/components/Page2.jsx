@@ -19,8 +19,8 @@ const Page2 = () => {
       scrollTrigger: {
         trigger: "#page2-top",
         scroller: "body",
-        start: "top 57%",
-        end: "top 10%",
+        start: "top 77%",
+        end: "top 30%",
         toggleActions: "play none play reverse",
         scrub: 2,
         // markers: true,

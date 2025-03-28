@@ -87,13 +87,14 @@ const Page3 = () => {
                     autoplay
                     className="tap-icon"
                   />
+
                 </div>
               ) : null}
               <img
                 className="text"
                 src={box.textImg}
                 alt=""
-                style={{ opacity: hoverStates[index] ? 1 : 0 }}
+                style={{ opacity: 1 }}
               />
               <img
                 className="img"

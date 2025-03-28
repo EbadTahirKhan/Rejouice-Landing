@@ -31,7 +31,7 @@ const Page1 = () => {
           x: 0,
           y: 0,
           opacity: 1,
-          stagger: (index) => index * 0.1,
+          stagger: (index) => index * 0.07,
           delay: 0,
         });
     }
